@@ -1,0 +1,359 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(238, 238, 244);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+
+header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #f6f3f3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: rgb(172, 54, 54);
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: rgb(166, 21, 50);
+}
+header .icons button {
+    border: none;
+    background: whitesmoke;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+
+.content {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    color: rgb(23, 20, 20);
+    background-color: rgb(87, 15, 15);
+
+}
+span{
+    color: brown;
+}
+
+
+#Main {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+    
+   
+}
+
+#Main h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#Main p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: black;
+} 
+
+    .btn{
+    background-color: rgb(166, 21, 50);
+    color: white;
+    border: none;
+margin: 0 auto;
+    font-size: 1rem;
+    border-radius:20px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    transition: background-color 0.3s ease;
+    box-shadow: #2d2c36;
+}
+.btn:hover{
+    background-color: rgba(15, 15, 15, 0.7);
+    
+}
+    
+
+
+  
+   
+    #Main {
+      padding: 20px;
+      margin: 20px auto;
+      width: 100vw;
+    }
+  
+    #Main h1 {
+      font-size: 1.5rem;
+} 
+ 
+
+
+#About {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#About img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#About h2 {
+    color: rgb(166, 21, 50);
+    font-size: 2rem;
+    margin-bottom: 500px;
+    text-transform: uppercase;
+    
+    
+}
+
+#About p {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+
+#Service {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#Service h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#Service p {
+    text-align: center;
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+#Service ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Service li {
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    color: #444;
+    transition: transform 0.3s ease;
+}
+
+#Service li:hover {
+    transform: scale(1.05);
+}
+
+
+#Contact {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+#Contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#Contact p {
+    text-align: center;
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+#Contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#Contact label {
+    font-size: 1rem;
+    color: #333;
+}
+
+#Contact input, 
+#Contact textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#Contact textarea {
+    resize: vertical;
+}
+
+#Contact input[type="submit"] {
+    background-color: rgb(166, 21, 50);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+#Contact input[type="submit"]:hover {
+    background-color: #141515;
+}
+
+
+#Blog {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    gap: 10px;
+}
+
+
+
+
+
+ #Blog img {
+    width: 30px;
+    height: auto;
+    text-align: center;
+    
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(238, 238, 244);
+    color: #333;
+    font-size: 0.9rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: row;
+        text-align: center;
+        padding: 20px 0;
+      width: 100vw;
+      height: 60px;
+    }
+
+    header nav ul {
+        flex-direction: row;
+        margin: 10px 4px;
+    }
+
+    #About {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    #About img {
+        margin-right: 0;
+    }
+
+    #About h2{ 
+        margin-bottom: 0;
+    }
+    #Main, #Service, #Contact, #Blog {
+        width: 90%;
+    }
+}
